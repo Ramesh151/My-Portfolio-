@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import Tittle from './tittle'
+import Tittle from '@/app/(home)/components/Tittle'
 import { HoverEffect } from '@/components/ui/card-hover-effect';
 import { SiGit, SiJavascript, SiNextdotjs, SiNodedotjs, SiReact, SiTailwindcss } from 'react-icons/si';
 

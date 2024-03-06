@@ -1,7 +1,7 @@
 "use client";
 import React from 'react'
 import { SiNextdotjs, SiReact, SiReacthookform, SiReactrouter, SiRedux, SiStripe, SiTailwindcss } from 'react-icons/si'
-import Tittle from './tittle'
+import Tittle from '@/app/(home)/components/Tittle'
 import Link from 'next/link'
 import { cn } from '@/lib/utils'
 import { DirectionAwareHover } from "@/components/ui/direction-aware-hover"
@@ -12,7 +12,7 @@ function Project() {
     {
       title:"Music Academy",
       tech:[SiNextdotjs,SiReact,SiTailwindcss,],
-      link:"https://github.com/Ramesh151/Music-Class-",
+      link:"https://music-class-sxuo-git-main-rameshs-projects-69549142.vercel.app",
       cover:"/photo2.png",
       background:"bg-green-500"
     },
