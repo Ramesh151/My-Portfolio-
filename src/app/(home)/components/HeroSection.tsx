@@ -1,9 +1,8 @@
 import Link from "next/link";
 import React from "react";
-import { cn } from "@/utils/cn";
 import { Button } from "@/components/ui/moving-border";
 import { Spotlight } from "@/components/ui/Spotlight";
-import Tittle from "./tittle";
+import Tittle from "@/app/(home)/components/Tittle";
 
 export default function HeroSection() {
   return (
