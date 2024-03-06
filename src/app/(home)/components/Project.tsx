@@ -1,6 +1,6 @@
 "use client";
 import React from 'react'
-import { SiNextdotjs, SiReact, SiTailwindcss } from 'react-icons/si'
+import { SiNextdotjs, SiReact, SiReacthookform, SiReactrouter, SiRedux, SiStripe, SiTailwindcss } from 'react-icons/si'
 import Tittle from './tittle'
 import Link from 'next/link'
 import { cn } from '@/lib/utils'
@@ -10,24 +10,24 @@ import { DirectionAwareHover } from "@/components/ui/direction-aware-hover"
 function Project() {
   const projects=[
     {
-      title:"E Commerence",
-      tech:[SiNextdotjs,SiReact,SiTailwindcss],
-      link:"https://bcaclasses.online/",
-      cover:"/photo1.png",
+      title:"Music Academy",
+      tech:[SiNextdotjs,SiReact,SiTailwindcss,],
+      link:"https://github.com/Ramesh151/Music-Class-",
+      cover:"/photo2.png",
       background:"bg-green-500"
     },
     {
-      title:"My Protfloi",
+      title:"My portfolio ",
       tech:[SiNextdotjs,SiReact,SiTailwindcss],
       link:"https://bcaclasses.online/",
       cover:"/photo1.png",
-      background:"bg-green-500"
+      background:"bg-pink-500"
     },
     {
-      title:"My Protfloi",
-      tech:[SiNextdotjs,SiReact,SiTailwindcss],
-      link:"https://bcaclasses.online/",
-      cover:"/photo1.png",
+      title:"E Commerce",
+      tech:[SiReact,SiTailwindcss,SiRedux,SiReacthookform,SiReactrouter,SiStripe],
+      link:"@",
+      cover:"/photo3.png",
       background:"bg-orange-500"
     }
   ]
